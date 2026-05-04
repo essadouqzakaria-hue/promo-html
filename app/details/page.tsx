@@ -1018,8 +1018,6 @@ export default function Page() {
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76892.91752170083!2d-8.005450488542113!3d31.600459407539283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafeef0ae36935f%3A0x7284e149693c38de!2sL'Hivernage%2C%20Marrakech!5e0!3m2!1sfr!2sma!4v1638742308078!5m2!1sfr!2sma"
                                             width={600}
                                             height={450}
-                                            style={{ border: 0, width: "100%" }}
-                                            allowFullScreen=""
                                             loading="lazy"
                                         />
                                     </div>
