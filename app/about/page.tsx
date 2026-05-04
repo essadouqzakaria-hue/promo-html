@@ -15,25 +15,14 @@ export default function Page() {
             </section>
             <section className="section_breadcrumbs">
                 <div className="container">
-                    <ul itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
-                        <li
-                            itemProp="itemListElement"
-                            itemType="https://schema.org/ListItem"
-                            itemScope="itemscope"
-                        >
+                    <ul>
+                        <li>
                             <a itemProp="item" href="/">
                                 <span itemProp="name">Accueil</span>
                             </a>
-                            <meta itemProp="position" content={1} />
                         </li>
-                        <li
-                            itemProp="itemListElement"
-                            itemType="https://schema.org/ListItem"
-                            itemScope="itemscope"
-                            className="active"
-                        >
+                        <li className="active">
                             <span itemProp="name">Qui sommes nous ?</span>
-                            <meta itemProp="position" content={2} />
                         </li>
                     </ul>
                 </div>
@@ -146,7 +135,7 @@ export default function Page() {
             </section>
             <section className="section_quisomme3">
                 <h2>Nos valeurs</h2>
-                <hr size={4} />
+                <hr />
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
