@@ -17,12 +17,12 @@ export default function Page() {
                 <div className="container">
                     <ul>
                         <li>
-                            <a itemProp="item" href="/">
-                                <span itemProp="name">Accueil</span>
+                            <a href="/">
+                                <span >Accueil</span>
                             </a>
                         </li>
                         <li className="active">
-                            <span itemProp="name">Qui sommes nous ?</span>
+                            <span>Qui sommes nous ?</span>
                         </li>
                     </ul>
                 </div>
