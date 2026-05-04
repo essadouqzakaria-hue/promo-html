@@ -568,25 +568,15 @@ export default function Page() {
             </section>
             <section className="section_breadcrumbs">
                 <div className="container-fluid">
-                    <ul itemScope="itemscope" itemType="https://schema.org/BreadcrumbList">
-                        <li
-                            itemProp="itemListElement"
-                            itemType="https://schema.org/ListItem"
-                            itemScope="itemscope"
-                        >
-                            <a itemProp="item" href="https://www.promoimmomarrakech.com/">
-                                <span itemProp="name">Accueil</span>
+                    <ul>
+                        <li>
+                            <a href="https://www.promoimmomarrakech.com/">
+                                <span>Accueil</span>
                             </a>
-                            <meta itemProp="position" content={1} />
                         </li>
-                        <li
-                            itemProp="itemListElement"
-                            itemType="https://schema.org/ListItem"
-                            itemScope="itemscope"
-                            className="active"
+                        <li className="active"
                         >
-                            <span itemProp="name">Vente </span>
-                            <meta itemProp="position" content={2} />
+                            <span>Vente </span>
                         </li>
                     </ul>
                 </div>
