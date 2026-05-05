@@ -1047,7 +1047,6 @@ export default function Page() {
                                                         name="nom"
                                                         id="proposition_nom"
                                                         placeholder="Nom"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1057,7 +1056,6 @@ export default function Page() {
                                                         name="prenom"
                                                         id="proposition_prenom"
                                                         placeholder="Prénom"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1067,7 +1065,6 @@ export default function Page() {
                                                         name="email"
                                                         id="proposition_email"
                                                         placeholder="Email"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1077,7 +1074,6 @@ export default function Page() {
                                                         name="tel"
                                                         id="proposition_tel"
                                                         placeholder="Téléphone"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1087,7 +1083,6 @@ export default function Page() {
                                                         name="adresse"
                                                         id="proposition_adresse"
                                                         placeholder="Adresse"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1097,7 +1092,6 @@ export default function Page() {
                                                         name="ville"
                                                         id="proposition_ville"
                                                         placeholder="Ville"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1112,7 +1106,6 @@ export default function Page() {
                                                         name="type_projet"
                                                         id="proposition_type_projet"
                                                         placeholder="Type de projet"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1122,7 +1115,6 @@ export default function Page() {
                                                         name="prix_finance"
                                                         id="proposition_prix_finance"
                                                         placeholder="Prix de financement"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1171,7 +1163,6 @@ export default function Page() {
                                                         className="form-control default"
                                                         name="date_heure"
                                                         id="date_heure"
-                                                        defaultValue=""
                                                     />
                                                 </div>
                                             </div>
@@ -1183,7 +1174,6 @@ export default function Page() {
                                                         name="motif_rendezvous"
                                                         id="motif_rendezvous"
                                                         placeholder="Motif de rendez-vous"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1193,7 +1183,6 @@ export default function Page() {
                                                         name="email_rendezvous"
                                                         id="email_rendezvous"
                                                         placeholder="Email"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1203,7 +1192,6 @@ export default function Page() {
                                                         name="tel_rendezvous"
                                                         id="tel_rendezvous"
                                                         placeholder="Téléphone"
-                                                        required=""
                                                     />
                                                 </div>
                                                 <div className="col-md-12">
@@ -1235,8 +1223,6 @@ export default function Page() {
                                 <article className="produit_aimer">
                                     <img
                                         src="asset/img/produit/produit-5.jpg"
-                                        alt=""
-                                        title=""
                                         loading="lazy"
                                     />
                                     <div className="content">
@@ -1248,8 +1234,6 @@ export default function Page() {
                                 <article className="produit_aimer">
                                     <img
                                         src="asset/img/produit/produit-6.jpg"
-                                        alt=""
-                                        title=""
                                         loading="lazy"
                                     />
                                     <div className="content">
@@ -1261,8 +1245,6 @@ export default function Page() {
                                 <article className="produit_aimer">
                                     <img
                                         src="asset/img/produit/produit-7.jpg"
-                                        alt=""
-                                        title=""
                                         loading="lazy"
                                     />
                                     <div className="content">
@@ -1274,8 +1256,6 @@ export default function Page() {
                                 <article className="produit_aimer">
                                     <img
                                         src="asset/img/produit/produit-8.jpg"
-                                        alt=""
-                                        title=""
                                         loading="lazy"
                                     />
                                     <div className="content">
