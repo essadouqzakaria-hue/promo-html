@@ -662,7 +662,7 @@ export default function Page() {
             <br />
             de Biens Immobiliers à Marrakech
           </h2>
-          <hr size={3} />
+          <hr/>
           <div className="row">
             <div className="col-md-4">
               <div className="img-bien">
@@ -755,8 +755,6 @@ export default function Page() {
                 <img
                   src="asset/img/produit/produit-3.jpg"
                   loading="lazy"
-                  alt=""
-                  title=""
                 />
               </div>
               <div className="overflow">
@@ -902,8 +900,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-4.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -940,8 +936,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-5.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -978,8 +972,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-6.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -1016,8 +1008,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-7.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -1056,8 +1046,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-8.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -1094,8 +1082,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-9.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -1133,8 +1119,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-10.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
@@ -1172,8 +1156,6 @@ export default function Page() {
                         <img
                           src="asset/img/produit/produit-11.jpg"
                           loading="lazy"
-                          alt=""
-                          title=""
                         />
                       </div>
                       <div className="overflow">
