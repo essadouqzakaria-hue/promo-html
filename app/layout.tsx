@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
         <Footer />
-        <Script rel="preload" src="asset/js/jquery.min.js" as="script"></Script>
+        <Script rel="preload" src="asset/js/jquery.min.js"></Script>
         <Script src="asset/js/bootstrap.bundle.min.js"></Script>
       </body>
     </html>
