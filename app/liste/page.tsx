@@ -792,10 +792,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="quartier_filtre_25"
-                                            defaultValue={25}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor={25}>
+                                        <label className="form-check-label">
                                             Targa
                                         </label>
                                     </div>
@@ -817,10 +815,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_1"
-                                            defaultValue={1}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Grand ensemble
                                         </label>
                                     </div>
@@ -829,10 +825,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_2"
-                                            defaultValue={2}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Grand luxe
                                         </label>
                                     </div>
@@ -841,10 +835,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_3"
-                                            defaultValue={3}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label" >
                                             Luxe
                                         </label>
                                     </div>
@@ -853,10 +845,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_4"
-                                            defaultValue={4}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Normal
                                         </label>
                                     </div>
@@ -865,10 +855,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_5"
-                                            defaultValue={5}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Standing
                                         </label>
                                     </div>
@@ -877,10 +865,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_6"
-                                            defaultValue={6}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Contemporain
                                         </label>
                                     </div>
@@ -889,10 +875,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_7"
-                                            defaultValue={7}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label">
                                             Maison d'hôtes
                                         </label>
                                     </div>
@@ -901,10 +885,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_8"
-                                            defaultValue={8}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label" >
                                             Prestige
                                         </label>
                                     </div>
@@ -913,10 +895,8 @@ export default function Page() {
                                             className="form-check-input"
                                             type="checkbox"
                                             name="standing_filtre_9"
-                                            defaultValue={9}
-                                            id=""
                                         />
-                                        <label className="form-check-label" htmlFor="">
+                                        <label className="form-check-label" >
                                             Golfique
                                         </label>
                                     </div>
@@ -1241,8 +1221,6 @@ transports, écoles…),</p>*/}
                                                 <img
                                                     src="asset/img/produit/produit-5.jpg"
                                                     loading="lazy"
-                                                    alt=""
-                                                    title=""
                                                 />
                                             </a>
                                             <div className="content">
